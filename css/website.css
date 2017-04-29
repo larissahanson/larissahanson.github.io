@@ -1,0 +1,331 @@
+/*======================================
+Custom Styles
+======================================*/
+
+
+
+/*  ======================================
+01.  Fix some Bootstrap elements (DO NOT REMOVE)
+====================================== */
+
+img{
+	
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+	
+}
+
+.thumbnail > img, .thumbnail a > img{
+	width:100%
+}
+
+
+.padding{
+padding: 20px
+	}
+	
+	
+.input-medium, textarea {
+    width: 80%;
+}
+
+.fa{
+	color: black;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+}
+
+/*  ======================================
+02. STRUCTURE
+====================================== */
+
+
+.container{
+	background-color: #381e1f;
+	
+}
+
+body{
+	background-color: #381e1f;
+	color: #000000;
+
+}
+
+.logo{
+	text-align:center;
+	
+}
+
+
+footer{
+	background-color: #381e1f;
+	color:black;
+	font-family: 'Orbitron', sans-serif;
+	margin-top:2%;
+}
+
+.middle{
+	padding: 100px;
+	background-color: #381e1f;
+}
+
+
+.banner img {
+    width: 100%;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    width: 100%;
+}
+
+
+
+/*
+
+header{
+	
+}
+
+
+.banner{
+}
+
+
+
+
+*/
+
+
+
+
+/*  ======================================
+03.  TYPOGRAPHY
+====================================== */
+
+
+h1, h2, h4, h5, h6{
+	color: #000000;	
+	font-family: 'Unica One', cursive; 
+}
+	
+
+
+h3{
+	color: #000000;
+	font-family: 'Unica One', cursive; 
+	background-color: #1c3b2d;
+}
+
+
+
+.featurette-heading {
+    margin-top: 120px;
+	font-size: 50px;
+}
+
+.featurette-divider {
+	margin: 80px 0;
+	background-color:#666;
+	height: 2px;
+}
+
+
+
+
+/*  ======================================
+04. NAVIGATION
+====================================== */
+
+
+.navbar {
+   margin-bottom: 0px; 
+
+}
+
+
+
+/* Main Navigation Container*/
+.navbar {
+	background-color: #381e1f; 
+	border: none;
+}
+
+
+
+/* Navigation link text color */
+.navbar .nav > li > a {
+    color: #000000;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 18px;
+	
+}
+
+/* Navigation link text color on hover */
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background-color: #1c3b2d;
+    color: #fff;
+}
+
+
+
+
+/* //////////    Collapsed mobile navigation   ///////////////*/
+
+/* Website's Name */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #f3c800;
+}
+
+/* Collapsed navigation open menu button border */
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+
+
+/* Color of the collapsed navigation open menu icon bar */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* Collapsed navigation open menu button on hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #f3c800;
+    color: #fff;
+}
+
+
+
+
+
+
+/*  ======================================
+05.  BOOTSTRAP ELEMENTS
+====================================== */
+
+
+/* ///////  ACCORDIONS / COLLAPSABLE GROUP //////////*/
+
+.panel-default > .panel-heading {
+	background-color: #1c3b2d;
+	border-color: #245988;
+	color: #fff;
+}
+
+
+
+/* ///////  TABS //////////*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus  {
+    background-color: #f3c800;
+	color:#000;
+    border-color: #ddd;
+}
+
+
+
+.nav-tabs > li > a {
+    background-color: #381e1f;
+	color:#fff
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #ff00f0;
+    text-decoration: none;
+	color:#fff
+}
+
+
+
+.tab-content{
+	background-color:#fff
+	
+}
+
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+
+
+/* ///////  BUTTONS //////////*/
+.btn-primary {
+    background-color: #de00ff;
+    border-color: #de00ff;
+    color: #381e1f;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #f3c800;
+    border-color: #f3c800;
+    color: #000;
+}
+
+/*////////////////////////////////////////////////////////////////////
+======================================
+06. Responsive Styles (Media Queries)
+======================================
+////////////////////////////////////////////////////////////////////*/
+
+    /* Large desktop */
+    @media (min-width: 1200px) { 
+	
+	
+	 }
+     
+	 
+	 
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) {
+		
+		}
+		
+		
+		
+ /* Landscape phone to portrait tablet */
+    @media (min-width: 767px) {		
+		.nav.navbar-nav {
+    margin: 0 auto;
+    width: 500px;
+	float:none
+      }
+	}
+		
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) {
+		
+
+	 .featurette-heading {
+    margin-top: 0px;
+      }
+
+
+	.featurette-divider{
+	margin: 20px 0
+	}
+
+
+	 
+	}
+	
+	
+	
+	
+	 
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+		
+	
+		}
